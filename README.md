@@ -1,12 +1,11 @@
-# *[Poner aquí el Título del Proyecto]*
+# *Riesgo Cognitivo*
 ---
-#### Materia: *[Poner aquí nombre de la materia]*
+#### Materia: *Desarrollo de Aplicaciónes en la Nube*
 
 ##### Campus: *[Poner aquí su campus]*
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]*
+1. *César Armando Valladares Martínez*
 
 ---
 ## 1. Aspectos generales
@@ -55,7 +54,10 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-*[Incluya aquí la descripción del proyecto.]*
+*Riesgo Cognitivo es una platadorma que te permite analizar tanto a personas físicas como a personas morales. Dependiendo del paquete que se haya comprado 
+se podra visualizar cierta información: 
+- El paquete 1 permitira analizar fuentes de periodico como El Universal, Milenio, El Sol, entre otros a demás de cuentas de Twitter, especificamente
+lo que se hable de esa cuenta*
 
 ## 3. Solución
 
