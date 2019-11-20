@@ -1,0 +1,253 @@
+.p-0 {
+  padding: 0;
+}
+
+.mt-1r {
+  margin-top: 1rem;
+}
+
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.my-50 {
+  	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.mb-50 {
+  	margin-bottom: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.my-30 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.mt-90 {
+	margin-top: 90px;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+// width
+.w-100 {
+	width: 100%;
+}
+
+// margin
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.my-50 {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.my-30 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.my-60 {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.my-20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+// background-color
+.bg-light {
+	background-color: $lighter-color;
+}
+
+.bg-white {
+	background-color: $white-color;
+}
+
+// zindex
+.index-1 {
+	z-index: 1;
+}
+
+.index-2 {
+	z-index: 2;
+}
+
+// padding
+.px-0 {
+	@include padding(initial, 0, initial, 0);
+}
+
+// text-color
+.text-white  {
+	color: $white-color;
+}
+
+.text-melrose {
+	color: $support-color;
+}
+
+
+.border-0 {
+	border: 0 !important;
+}
+
+
+.supind {
+	font-size: 10px;
+	vertical-align: super;
+}
+
+.border-b-dash {
+	border-bottom: 1px solid $primary-color;
+	border-bottom-style: dotted;
+}
+
+.border-b {
+	border-bottom: 1px solid $primary-color;
+}
+
+.min-height {
+	min-height: calc(100vh - 441px);
+}
+
+
+.bg-light-color {
+	background-color: $light-color;
+}
+
+.border-0 {
+	border: 0 !important;
+}
+
+.h-120 {
+	height: 120px;
+}
+
+// progress bar
+.bg-twitter {
+	background-color: $kournikova !important;
+}
+.bg-news {
+	background-color: $turbo !important;
+}
+.bg-sat {
+	background-color: $granny-apple !important;
+}
+.bg-court {
+	background-color: $bermuda !important;
+}
+.bg-dof {
+	background-color: $caribbean-green !important;
+}
+.bg-onu {
+	background-color: $french-pass !important;
+}
+.bg-ofac {
+	background-color: $malibu !important;
+}
+.bg-pep {
+	background-color: $azure-radiance !important;
+}
+
+.mr-10 {
+	margin-right: 10px !important;
+}
+
+.higlight-big {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.c-white {
+	color: $white-color;
+}
+
+.fs-18 {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.fs-40 {
+	font-size: 40px;
+}
+
+.post-0 {
+	top: 0 !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mr-20 {
+	margin-right: 20px;
+}

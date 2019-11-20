@@ -1,0 +1,78 @@
+@import 'styles/_mixins';
+@import 'styles/_variables';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 14px !important;
+}
+
+a {
+  color: $primary-color;
+  font-weight: bold;
+	transition: .4s ease color !important;
+
+	&:hover {
+		color: $accent-color;
+		text-decoration: none;
+  }
+
+  &.-anchor {
+    
+    &:hover {
+      color: $accent-color !important;
+      text-decoration: underline !important;
+    }
+  }
+}
+
+p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 0;
+
+  &.-highlight {
+    font-weight: bold;
+  }
+}
+
+.title {
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+  }
+  @include text (30px, $secondary-color, bold);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+.subtitle {
+  @include media-breakpoint-down(sm) {
+    font-size: 18px;
+  }
+  @include text (22px, $secondary-color, 500);
+  line-height: 24px;
+}
+
+button {
+  
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.table {
+  margin-bottom: 0 !important;
+
+  thead {
+    tr th {
+      border: 0 !important;
+    }
+  }
+  
+  th {
+    padding: 20px 10px !important;
+  }
+}
+
+ul {
+  padding-left: 17px;
+}

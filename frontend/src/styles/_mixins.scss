@@ -1,0 +1,27 @@
+@import 'node_modules/bootstrap/scss/_functions';
+@import 'node_modules/bootstrap/scss/_variables';
+@import 'node_modules/bootstrap/scss/_mixins';
+
+@mixin gradient ($deg, $color1, $color2) {
+  background-image: linear-gradient($deg, $color1, $color2);
+}
+
+@mixin text ($size, $color, $weight) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin margin($top, $right, $bottom, $left) {
+  margin-bottom: $bottom;
+  margin-left: $left;
+  margin-right: $right;
+  margin-top: $top;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+  padding-bottom: $bottom;
+  padding-left: $left;
+  padding-right: $right;
+  padding-top: $top;
+}

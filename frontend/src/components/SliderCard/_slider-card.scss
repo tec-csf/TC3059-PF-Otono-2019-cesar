@@ -1,0 +1,33 @@
+.slider-card {
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  padding: 20px;
+
+  >.slider-head {
+    display: flex;
+
+    >.title {
+      @include text(16px, $secondary-color, bold)
+    }
+
+    >.highlight {
+      color: $secondary-color;
+      font-size: 26px;
+      font-weight: bold;
+    }
+  }
+
+  >.slider-body {
+
+    div {
+      width: 100%;
+    }
+  }
+
+  &.-disabled {
+    filter: grayscale(1);
+    opacity: .4;
+  }
+}

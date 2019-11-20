@@ -1,0 +1,18 @@
+.notifications-card {
+    background-color: $support-color;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+
+    >.notification-row {
+        display: flex;
+
+        >.notification-text {
+            width: 80%;
+        }
+    
+        >.notification-bell {
+            width: 20%;
+        }
+    }
+}

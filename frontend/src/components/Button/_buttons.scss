@@ -1,0 +1,145 @@
+@import 'styles/_variables';
+@import 'styles/_mixins';
+
+
+.fa-btn {
+  background-color: transparent;
+  border: 0;
+  color: $primary-color;
+  transition: .4s ease color;
+
+  &.-gray {
+    color: $gray-color;
+
+    &.-nohover {
+
+      &:hover {
+        color: $gray-color;
+      }
+    }
+  }
+
+  &.-warning {
+    color: $alert-color;
+
+    &.-nohover {
+
+      &:hover {
+        color: $alert-color;
+      }
+    }
+  }
+
+  &.-white {
+    color: $white-color;
+
+    &.-nohover {
+
+      &:hover {
+        color: $white-color;
+      }
+    }
+  }
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.button {
+  border-radius: 0;
+  padding: .5rem 2rem;
+  transition: .4s ease all;
+  width: 100%;
+
+  >i {
+    margin-right: 5px;
+  }
+
+  &.-primary {
+    @include text (14px, $white-color, bold);
+    background-color: $primary-color;
+    border: 0;
+    text-align: center;
+
+    &:hover {
+      background-color: $accent-color;
+    }
+
+    &:disabled {
+      background-color: $primary-color-light;
+    }
+  }
+
+  &.-secondary {
+    @include text (14px, $white-color, bold);
+    background-color: $primary-color;
+    border: 0;
+
+    &:hover {
+      background-color: $accent-color;
+    }
+
+    &:disabled {
+      background-color: $primary-color-light;
+    }
+  }
+
+  &.-outline {
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $accent-color;
+      color: $accent-color;
+    }
+
+    &.-white {
+      border: 1px solid $white-color;
+      color: $white-color;
+
+      &:hover {
+        border: 1px solid $accent-color;
+        color: $accent-color;
+      }
+    }
+  }
+
+  &.-text {
+    background-color: transparent;
+    border: 0;
+    color: $secondary-color;
+    padding: 0;
+    width: auto;
+
+    &:hover {
+      color: $accent-color;
+    }
+
+    >svg {
+      margin-right: 5px;
+    }
+  }
+
+  &.-fabtn {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    width: auto;
+
+    >i {
+      color: $primary-color;
+      transition: .4s ease all;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.table {
+	margin-bottom: 0 !important;
+}

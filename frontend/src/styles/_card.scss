@@ -1,0 +1,69 @@
+$pro-color: $azure-radiance;
+$inter-color: $caribbean-green;
+
+.cm-card {
+  background-color: $primary-light-color;
+  border: 0;
+  padding: 20px;
+
+  .highlight {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &.-dark {
+    background-color: $secondary-color;
+
+    p {
+      color: $white-color;
+    }
+  }
+
+  &.-plans {
+    @include media-breakpoint-down(md) {
+      min-height: auto;
+    }
+    min-height: 484px;
+  }
+
+  &.-white {
+    -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+    -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+    background-color: $white-color;
+    box-shadow: 0 5px 6px -1px $shadow-color;
+    cursor: pointer;
+
+    &.-no-cursor {
+      cursor: initial;
+    }
+
+    >.icon {
+      align-items: center;
+      background-color: $primary-color;
+      border-radius: 0 0 0 30px;
+      display: flex;
+      height: 40px;
+      justify-content: center;
+      position: absolute;
+      right: 15px;
+      top: 0;
+      transition: .5s ease all;
+      width: 40px;
+
+      >svg {
+        color: $white-color;
+        transition: .5s ease all;
+      }
+    }
+
+    &:hover >.icon {
+      height: 60px;
+      width: 60px;
+    }
+
+    &:hover >.icon >svg {
+      height: 1.4rem;
+      width: 1.4rem;
+    }
+  }
+}

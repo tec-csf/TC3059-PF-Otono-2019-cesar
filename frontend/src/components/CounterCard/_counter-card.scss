@@ -1,0 +1,25 @@
+.counter-card{
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  padding: 20px;
+
+  .icon-wrapper {
+    >svg {
+      color: $primary-color;
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  .count {
+    @include text (50px, $primary-color, bold);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 60px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}

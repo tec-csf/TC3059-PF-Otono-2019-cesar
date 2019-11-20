@@ -1,0 +1,33 @@
+@import 'styles/_variables';
+
+.sidenav-bar {
+  align-items: center;
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 20px;
+  transition: .4s ease-in all;
+  width: 100%;
+  z-index: 2;
+
+  >.iconbutton {
+    align-items: center;
+    color: rgba(255, 255, 255, .4) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .4s ease color;
+    width: 25%;
+
+    &:hover {
+      color: $white-color !important;
+    }
+
+    >svg {
+      height: 1.4rem;
+      width: 1.4rem;
+    }
+  }
+}

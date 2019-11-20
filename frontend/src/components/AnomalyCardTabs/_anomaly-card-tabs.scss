@@ -1,0 +1,32 @@
+.anomaly-card-tabs {
+
+  >.anomaly-tabs-body {
+
+    >.tab-content {
+
+      >.tab-pane.active {
+        @include media-breakpoint-down(md) {
+          flex-direction: column;
+        }
+        display: flex;
+
+        .note-wrapper {
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+          height: 250px;
+          overflow-y: scroll;
+          width: 60%;
+        }
+
+        .anomaly-chart {
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+          padding-left: 10px;
+          width: 40%;
+        }
+      }
+    }
+  }
+}

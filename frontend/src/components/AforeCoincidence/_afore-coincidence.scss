@@ -1,0 +1,52 @@
+.afore-coincidence {
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  padding: 20px;
+  position: relative;
+
+  >.wrapper {
+    align-items: center;
+    border-bottom: 1px solid $primary-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .element-wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 10px;
+
+      >.warning {
+        background-color: $alert-light-color;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    img {
+      width: 100px;
+    }
+
+    i {
+      font-size: 36px;
+
+      &.-succes {
+        color: $succes-color;
+      }
+
+      &.-error {
+        color: $alert-color;
+      }
+    }
+  }
+}

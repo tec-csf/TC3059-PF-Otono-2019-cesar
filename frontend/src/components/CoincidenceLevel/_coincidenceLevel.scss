@@ -1,0 +1,48 @@
+$coincidence-bg-primary: #F6F6FF;
+$coincidence-bg-secondary: #EEEDFE;
+
+.coincidence-level {
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    width: 100%;
+  }
+  display: flex;
+
+  >.coincidenceblock {
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+    background-color: $coincidence-bg-primary;
+    padding: 10px;
+    position: relative;
+    width: 33.33%;
+
+    &:nth-child(2) {
+      background-color: $coincidence-bg-secondary;
+    }
+
+    >.coincidencename {
+      color: $secondary-color;
+      font-weight: bold;
+    }
+
+    >.coincidenceicon {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+
+      >svg {
+        height: 20px;
+        width: 20px;
+      }
+
+      &.-succes >svg {
+        color: $succes-color;
+      }
+
+      &.-error >svg {
+        color: $alert-color;
+      }
+    }
+  }
+}

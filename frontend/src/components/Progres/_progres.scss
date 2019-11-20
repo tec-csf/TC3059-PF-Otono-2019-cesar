@@ -1,0 +1,7 @@
+.progress {
+  border-radius: 0 !important;
+
+  >.progress-bar {
+    background-color: $accent-color;
+  }
+}

@@ -1,0 +1,26 @@
+.services-card {
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  align-items: center;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  display: flex;
+  flex-direction: column;
+  height: 112px;
+  justify-content: center;
+  padding: 20px;
+
+  >i {
+    color: $secondary-color;
+    font-size: 22px;
+  }
+
+  >p {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  >.plan {
+    font-weight: bold;
+  }
+}

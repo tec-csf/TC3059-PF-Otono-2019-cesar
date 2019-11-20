@@ -1,0 +1,28 @@
+.plan-description {
+
+  >.price {
+    border-bottom: 1px dotted $primary-color;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+
+    >p {
+      margin-bottom: 0;
+
+      &:nth-child(1) {
+        margin-right: 10px;
+      }
+    }
+
+    &:nth-child(2) {
+      border-bottom: 1px solid $primary-color;
+    }
+
+    &:nth-child(3) {
+      border: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}

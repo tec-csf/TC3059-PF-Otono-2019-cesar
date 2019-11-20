@@ -1,0 +1,53 @@
+.dropdown-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  .dropdown-user {
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+    appearance: none;
+    background-color: $primary-light-color !important;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 7px 20px;
+    transition: .4s ease all;
+    width: 100%;
+
+    &:hover {
+      border-color: $accent-color;
+    }
+  }
+
+  .dropdown-icon {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
+}
+
+.dropdown {
+
+  >.dropdown-toggle {
+    background-color: $primary-color-light;
+    border: 0;
+    border-radius: 0;
+    color: $secondary-color;
+    text-align: left;
+    width: 100%;
+
+    &:hover {
+      background-color: $primary-color-light;
+      color: $secondary-color;
+    }
+
+    &::after {
+      position: absolute;
+      right: 16px;
+      top: 17px;
+    }
+  }
+}

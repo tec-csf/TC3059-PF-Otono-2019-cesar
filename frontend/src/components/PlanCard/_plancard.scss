@@ -1,0 +1,42 @@
+.pay-card {
+  background-color: $white-color;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  transition: .5s ease all;
+
+  &:hover {
+    -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+    -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+    box-shadow: 0 5px 6px -1px $shadow-color;
+    top: -10px;
+  }
+
+  &:hover >.payicon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bassic {
+    color: $turbo;
+  }
+
+  .medium {
+    color: $caribbean-green;
+  }
+
+  .business {
+    color: $azure-radiance;
+  }
+
+  >.payicon {
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .5s ease all;
+    width: 80px;
+  }
+}

@@ -1,0 +1,141 @@
+.anomaly-card {
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  height: 280px;
+  overflow-y: scroll;
+
+  &.-h-auto {
+    height: auto;
+  }
+
+  >.anomaly-head {
+    align-items: flex-start;
+    display: flex;
+    padding: 20px 20px 0 20px;
+
+    >.subtitle {
+      color: $secondary-color;
+    }
+
+    >.anomaly-actions {
+      align-items: center;
+      display: flex;
+      justify-content: end;
+      margin-left: auto;
+
+      >.CircularProgressbar {
+        width: 50px;
+      }
+    }
+
+    >.anomaly-actions >.notifications {
+      margin-right: 20px;
+      position: relative;
+
+      >button >svg {
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+
+      >.notifications-number {
+        background-color: $secondary-color;
+        border: 2px solid $white-color;
+        border-radius: 7px;
+        height: 15px;
+        position: absolute;
+        right: -3px;
+        top: 0;
+        width: 15px;
+      }
+    }
+  }
+
+  .anomaly-body {
+    padding: 0 20px 20px 20px;
+
+    &.-empty {
+      align-items: center;
+      display: flex;
+      height: auto;
+      justify-content: center;
+    }
+
+    >.twitter-statistics {
+      display: flex;
+
+      >.twitter-data {
+        @include media-breakpoint-down(md) {
+          margin-right: 10px;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 60px;
+
+        >.data-name {
+          font-size: 12px;
+          margin-bottom: 0;
+        }
+
+        >.data-number {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .anomaly-body >.null {
+    @include text (18px, $secondary-color, bold);
+    position: relative;
+    text-align: center;
+
+    >svg {
+      color: $succes-color;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  .anomaly-body .note {
+    border-bottom-style: dashed;
+    border-width: 1px;
+
+    .evaluation {
+      font-weight: bold;
+      margin-bottom: 0;
+
+      &.-alert {
+        color: $alert-color;
+      }
+
+      &.-success {
+        color: $succes-color;
+      }
+    }
+
+    .date {
+      color: $secondary-color;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    .info-wrapper {
+      display: flex;
+
+      >.info-text {
+        width: 85%;
+      }
+
+      >.info-link {
+        margin-left: auto;
+      }
+    }
+  }
+
+  >.anomaly-chart {
+    width: 40%;
+  }
+}

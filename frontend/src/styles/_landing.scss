@@ -1,0 +1,58 @@
+.landing-hero {
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+
+  >.content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+
+    .hero-title {
+      color: $white-color;
+      font-size: 54px;
+      font-weight: bold;
+    }
+  }
+}
+
+.img-card {
+  @include media-breakpoint-down(md) {
+    min-height: auto;
+  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 544px;
+  min-height: 396px;
+  padding: 20px;
+
+  &.-physical {
+    background-image: url('img/physical.jpg');
+  }
+
+  &.-moral {
+    background-image: url('img/moral.jpg');
+  }
+
+  >.subtitle {
+    font-size: 22px;
+  }
+
+  >p {
+    color: $white-color;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  >a {
+    @include media-breakpoint-down(md) {
+      margin-top: 50px;
+    }
+    margin-top: auto;
+  }
+}
+
+.solutions-img {
+  width: 100%;
+}

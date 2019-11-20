@@ -1,0 +1,106 @@
+@import 'styles/_mixins';
+@import 'styles/_variables';
+
+.navbar {
+  @include media-breakpoint-down(md) {
+    top: 0;
+  }
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;  
+  background-color: $secondary-dark-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  height: 60px;
+  padding: 10px 20px;
+  position: fixed !important;
+  top: 44px;
+  width: 100%;
+  z-index: 3;
+
+  >.navbar-toggler {
+    border: 0;
+
+    >.navbar-toggler-icon {
+      background-image: url('img/menu-icon.png');
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  .navbar-collapse .navbar-nav .dropdown >a {
+    align-items: center;
+    background-color: transparent !important;
+    color: $white-color !important;
+    display: flex;
+    justify-content: center;
+
+    &:after {
+      display: none;
+    }
+
+    >svg {
+      margin-right: 1rem;
+    }
+  }
+
+  .dropdown > .dropdown-menu {
+    -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+    -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+    background-color: $white-color;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 5px 6px -1px $shadow-color;
+    top: 49px;
+
+    >.dropdown-item {
+      @include margin(10px, initial, 10px, initial);
+
+      &:hover {
+        background-color: transparent;
+        color: $primary-color;
+      }
+    }
+
+    >.dropdown-item > svg {
+      margin-right: .4rem;
+    }
+
+    >.dropdown-item > .pro {
+      background-image: url('img/pro.png');
+      background-size: cover;
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  >.collapse .button,
+  >.collapsing .button {
+
+    @include media-breakpoint-down(sm) {
+      margin-top: 20px;
+    }
+  }
+
+  >.navbar-collapse {
+    background-color: $secondary-dark-color;
+    margin: 0 -20px;
+
+    >.navbar-nav {
+      padding: 10px 24px;
+
+      .nav-item .nav-link {
+        color: $white-color;
+
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+
+    &.show,
+    &.collapsing {
+      -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+      -webkit-box-shadow: 0 5px 6px -1px $shadow-color;      
+      box-shadow: 0 5px 6px -1px $shadow-color;
+    }
+  }
+}

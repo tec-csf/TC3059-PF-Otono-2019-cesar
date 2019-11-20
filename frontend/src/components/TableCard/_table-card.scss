@@ -1,0 +1,65 @@
+.table-card {
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  max-height: 500px;
+  min-height: auto;
+  overflow-y: scroll;
+
+  >.table-head {
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    >.link {
+      @include media-breakpoint-down(md) {
+        margin-right: auto;
+      }
+      margin-left: auto;
+    }
+  }
+
+  .table-row {
+    background-color: $light-color;
+    display: flex;
+    width: 100%;
+
+    &:nth-child(odd) {
+      background-color: $white-color;
+    }
+
+    .table-col {
+      flex-direction: column;
+      padding: 20px;
+      width: 25%;
+
+      >p {
+        margin: 0;
+      }
+
+      .icon-wrapper {
+        display: flex;
+        justify-content: center;
+
+        >svg {
+          color: $primary-color;
+          height: 20px;
+          transition: .4s ease color;
+          width: 20px;
+
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+table {
+  margin-bottom: 0;
+}

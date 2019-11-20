@@ -1,0 +1,54 @@
+.contact-bar {
+  background-color: $secondary-color;
+  display: flex;
+  padding: 5px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  >.contact-method {
+    align-items: center;
+    color: $white-color;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    
+    >.wp-btn {
+      background: #25d366;
+      color: $white-color;
+      padding: 8px 14px;
+      text-align: center;
+      transition: .4s ease all;
+      z-index: 99;
+
+      &:hover {
+        background-color: #075e54;
+        color: $white-color !important;
+      }
+
+      i {
+        color: $white-color;
+        margin-left: 5px;
+
+        &:hover {
+          color: $white-color !important;
+        }
+      }
+    }
+
+    >a {
+      color: $white-color;
+    }
+    
+
+  .whatsapp {
+    font-size: 16px;
+  }
+
+    >.phone {
+      font-weight: 100;
+      margin-bottom: 0;
+      margin-left: 5px;
+    }
+  }
+}

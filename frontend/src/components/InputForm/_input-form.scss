@@ -1,0 +1,54 @@
+.group {
+  position: relative;
+
+  >input {
+    height: 38px;
+  }
+
+  >input,
+  textarea {
+    background-color: $white-color;
+    border: 1px solid transparent;
+    display: block;
+    font-size: 14px !important;
+    padding: 10px;
+    transition: .4s ease all;
+    width: 100%;
+
+    &:focus {
+      border: 1px solid $primary-color;
+      outline: 0;
+    }
+
+    &.-secondary {
+      background-color: $primary-light-color;
+    }
+  }
+
+  .-warning ~.warning-message {
+    display: block !important;
+  }
+
+  .-warning ~label {
+    color: $alert-color;
+  }
+
+  >label {
+    color: $gray-color;
+    font-size: 14px;
+    position: absolute;
+    top: -24px;
+  }
+
+  >.warning-message {
+    color: $alert-color;
+    display: none;
+    font-size: 12px;
+  }
+}
+
+.input-collapse {
+  background-color: $white-color;
+  border: 1px solid $primary-color;
+  padding: 20px;
+}

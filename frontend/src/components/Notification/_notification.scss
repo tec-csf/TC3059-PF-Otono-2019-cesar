@@ -1,0 +1,61 @@
+.notification {
+  -webkit-box-shadow: 0 5px 6px -1px $shadow-color;
+  -moz-box-shadow: 0 5px 6px -1px $shadow-color;
+  background-color: $white-color;
+  box-shadow: 0 5px 6px -1px $shadow-color;
+  opacity: 0;
+  position: absolute;
+  right: 16px;
+  top: 50px;
+  transition: .4s ease all;
+  width: 300px;
+
+
+  >.notification-head {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+
+    >svg {
+      color: $white-color !important;
+      height: 1.5rem;
+      margin-right: 10px;
+      width: 1.5rem;
+    }
+
+    >.notification-title {
+      color: $white-color;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    &.-error {
+      background-color: $alert-color;
+    }
+
+    &.-succes {
+      background-color: $succes-color;
+    }
+  }
+
+  >.notification-body {
+    padding: 10px;
+
+    .notification-highlight {
+      color: $primary-color;
+      font-weight: bold;
+
+      &:nth-child(2) {
+        color: $primary-color;
+      }
+    }
+  }
+
+  &.-show {
+    @include media-breakpoint-down(sm) {
+      top: 129px;
+    }
+    opacity: 1;
+    top: 72px;
+  }
+}
