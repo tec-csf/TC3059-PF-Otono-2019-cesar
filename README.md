@@ -54,10 +54,14 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-*Riesgo Cognitivo es una platadorma que te permite analizar tanto a personas físicas como a personas morales. Dependiendo del paquete que se haya comprado 
-se podra visualizar cierta información: 
+Riesgo Cognitivo es una platadorma que te permite analizar tanto a personas físicas como a personas morales, lo que se necesita es al menos un documento
+de identificación oficial (*INE*, *IFE*, *Pasaporte*). Dependiendo del paquete que se haya comprado se podra visualizar cierta información:
 - El paquete 1 permitira analizar fuentes de periodico como El Universal, Milenio, El Sol, entre otros a demás de cuentas de Twitter, especificamente
-lo que se hable de esa cuenta*
+lo que se hable de esa cuenta
+- El paquete 2 tendrá lo del paquete 1 a demás de un análisis de *SAT*, *Suprema Corte* y *Diario Oficial*.
+- El paquete 3 tendrá lo del paqiete 2 a demás de un análisis de *ONU*, *OFAC* y *PEP*.
+Al final se mostrará un porcentaje de confiabilidad, el cual podra ser ajustado dependeiendo de las necesidades de cada usuario.
+
 
 ## 3. Solución
 
