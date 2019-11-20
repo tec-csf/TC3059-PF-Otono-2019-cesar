@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "monitoreo-empresas",
+  "private_key_id": "1eb4ed2cbeebd52bd7505f9f27f5a0fbd5fd2dd1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCg3A9TvRRVfall\nIeC9qJVzTLAYVVfa7IggU4PGVsyw1wqM86hoDyzgys2WoPscm8Pu8/hDhfGlfTXA\nXO0fNALbiI+iiSnqJzrKemRe256qS8ugy48bglTvFZCRrJ+TCm+NvNtA76GUiRH4\ntlxH/FI+zukzK49XKvXhpnEYKBtOqkLa21pjj61sy1ewkROkAQ8a07naXUIZMj4x\n2w8STc4H9fVyX4mg692cfkQKntuQ29jJ2MKIfUxnMCx/uWVRlZdFU9KbhikENvVB\nRVwzkAPKB2Vgj9nzxUPNeGjlxiANBj6kURFksg8+3pd8lQEoBT3MH12TKFRZnXdT\nDjhhHbvrAgMBAAECggEAM0HL9H/0gcVX++zOo0Cb1rCiEC7pns3uFnbmL4YrFVKA\nfyeJCxeC0mJtHklPmu8bgQHmowWEWZpLTW+O83lsS635Lu6MF5vGhQx4/Sz4IwWh\n7ivO/xIJpGF3vqOF+aHCqCR8rPVuxFjlDB53y0xgnLjr4C1KMJl03iFeOjdVdDwV\nS8aRDIXT5QFEmjW+FGCGBZs0RMbe9BjcqIE/jVYMbsfMO9dIeMtb5KGE+NYy+kIZ\no+fjZfmd8JRSjrtjF5kwMD3HJmizr1jPOFmr75+soTzZBEi/r1dp/GGm1qRTfDx0\nu8WEVWmT3lHGgNNhzvJQOYEWrIybuZCFsKnj5x0jCQKBgQDRZHwhE7z+uUK44Aw7\n2AulGeZhQgo5/koJw2XKmaWyjbOwehJtYORcmOfuLx0Jwbm8fq7mvTujYMqqb6JE\np6A5HundBx+mjv8NV0WT6Z0GpUZZFNQV5enQHepeufRmcvMUam6oxbxTlOl5lG2i\n1M9hJZ3pR7TiaC1zTcDG+ycS/wKBgQDEqhfqrtR6tsF4GG/aNdFq3DJzSFisi3Hi\n2Ebncc8UsDT37Y5ibj85Uydl+S76H2P3RaP9METDRMQVNEqLBW4VIauQPxGkFUZw\nGEcAmiBX3A2/gVgNp5sHLHB+TqT3dwo9rZFBGXmlc8cvdDx4ZTqzuHkkARLRbLJO\n27awmr/TFQKBgHiuvYwi4C6/f+El4GctYajKgKlVcqdyFCIEaEqYu5NpcEMqWCyK\nR5PG3QW+SbIx4WbubMe4EQNc6fHJXXDMW+AQHSGy1V8d04pQ3l0dq88EusLk6kek\nt1mnpEjsTBwv7EG8BgNn098oWFgmX/oVRWDsWVL2bR6AhJGMIquMXTzpAoGBAI/n\ncra8FShyICFTqE0AwmsyEwx+LLydEMmPvlpO0dtukGO2hVCLIWI98X9RlclaPNjM\nMZHrxvUnlV96su0FHScDSzmynKL3GmKdsR7EqNQBZmHyME9VjD/0iaAyxc16Ypj9\nL2N2U6f4jxCvOixSzmCBpMruqilqIxNG/Gg/5At9AoGAULA3AQT8wWNl81qwSjrv\nQRcIdehNno+Yg/GDwmaM+x9ERRcuhSSrwr9vMbImr04y5ii5vsYGFxVRNf8x6B0C\nU1lu8oS9Ovuye99RM2HzulUkeb4z55fU5XaiX82GaXL6wzosLJ1Dy5muwZMl/zL+\n1Ex3gXotnoChXmzytw6bqfk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "riesgo-cognitivo-backend-stora@monitoreo-empresas.iam.gserviceaccount.com",
+  "client_id": "104370183616143551078",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/riesgo-cognitivo-backend-stora%40monitoreo-empresas.iam.gserviceaccount.com"
+}

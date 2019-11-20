@@ -1,0 +1,7 @@
+cron:
+- description: "updates news test"
+  url: /api/v1/update
+  schedule: every day 03:00
+- description: "updates TFJFA entries"
+  url: /api/v1/tribunal
+  schedule: every day 9:10
