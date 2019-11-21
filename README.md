@@ -70,7 +70,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 ### 3.1 Arquitectura de la solución
 
 *[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
-![Arquitectura](https://raw.githubusercontent.com/tec-csf/TC3059-PF-Otono-2019-cesar/master/docs/ArquitecturaRiesgo.png)
+<img src="https://raw.githubusercontent.com/tec-csf/TC3059-PF-Otono-2019-cesar/master/docs/ArquitecturaRiesgo.png" href="https://github.com/tec-csf/TC3059-PF-Otono-2019-cesar/tree/master/docs" >
 
 *[Incluya una explicación del flujo de la información entre los diferentes componentes.]*
 
