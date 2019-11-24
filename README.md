@@ -82,8 +82,37 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 *[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
 
 #### 3.3.1 Lenguaje de programación
+
+- Javascript
+- HTML
+- CSS 
+
 #### 3.3.2 Framework
+
+- <a href="https://es.reactjs.org/">Reactjs</a>
+
 #### 3.3.3 Librerías de funciones o dependencias
+
+- auth0-js
+- axios
+- bootstrap
+- chart.js
+- express
+- jwt-decode
+- node-sass
+- npm
+- npm-upgrade
+- openpay
+- react
+- react-chartjs-2
+- react-circular-progressbar
+- react-dom
+- react-icons
+- react-input-slider
+- react-router-dom
+- react-scripts
+- reactstrap
+- serve
 
 ### 3.4 Backend
 
