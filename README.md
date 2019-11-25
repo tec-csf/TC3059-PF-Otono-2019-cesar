@@ -156,12 +156,13 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 ### API
 1. En la carpeta de la api crear un ambiente virtual (Linux): virtualenv NOMBRE -p python3
 2. Instalar las librerias necesarias del archivo requierements.txt: pip install -r requirements.txt
+3. Ejecutar: python manage.py
 
 ### Frontend
 1. Tener instalado node: sudo apt-get install -y nodejs
 2. En la carpeta del frontend instalar las dependencias: npm install 
 3. Ejecutar la aplicación: npm start
-4. En cualquier navegador entrar a "localhost:300"
+4. En cualquier navegador entrar a "localhost:3000"
 
 ## 4. Referencias
 
