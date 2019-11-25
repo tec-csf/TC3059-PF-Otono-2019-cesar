@@ -54,7 +54,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del proyecto
 
-Riesgo Cognitivo es una platadorma que te permite analizar tanto a personas físicas como a personas morales, lo que se necesita es al menos un documento
+Riesgo Cognitivo es una plataforma dirigida a el área de RH de las empresas, ya que te permite analizar tanto a personas físicas como a personas morales, lo que se necesita es al menos un documento
 de identificación oficial (*INE*, *IFE*, *Pasaporte*). Dependiendo del paquete que se haya comprado se podra visualizar cierta información:
 - El paquete 1 permitira analizar fuentes de periodico como El Universal, Milenio, El Sol, entre otros a demás de cuentas de Twitter, especificamente
 lo que se hable de esa cuenta
