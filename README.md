@@ -75,7 +75,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 ### 3.2 Descripción de los componentes
 
-*[Incluya aquí una descripción detallada de cada uno de los componentes de la arquitectura así como una justificación de la selección de cada componente]*
+- <a href="https://github.com/tec-csf/TC3059-PF-Otono-2019-cesar/blob/master/docs/Descripci%C3%B3n%20de%20Componentes%20.pdf">Componentes</a>
 
 ### 3.3 Frontend
 
@@ -141,7 +141,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 *[Incluya aquí una explicación de cada uno de los endpoints que forman parte de la API. Cada endpoint debe estar correctamente documentado.]*
 
-*[Por cada endpoint debe incluir lo siguiente:]*
+- <a href="https://github.com/tec-csf/TC3059-PF-Otono-2019-cesar/blob/master/docs/Endpoints.pdf">Endpoints</a>
 
 * **Descripción**:
 * **URL**:
@@ -153,8 +153,18 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
-*[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación de este repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+### API
+1. En la carpeta de la api crear un ambiente virtual (Linux): virtualenv NOMBRE -p python3
+2. Instalar las librerias necesarias del archivo requierements.txt: pip install -r requirements.txt
+
+### Frontend
+1. Tener instalado node: sudo apt-get install -y nodejs
+2. En la carpeta del frontend instalar las dependencias: npm install 
+3. Ejecutar la aplicación: npm start
+4. En cualquier navegador entrar a "localhost:300"
 
 ## 4. Referencias
 
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+- Para el frontend: https://www.w3schools.com/ 
+- Para React https://es.reactjs.org/docs/getting-started.html 
+- Para codigo en general https://stackoverflow.com/ 
