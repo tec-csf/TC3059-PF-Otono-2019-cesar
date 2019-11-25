@@ -127,8 +127,17 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 *[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
 
 #### 3.5.1 Lenguaje de programación
+
+- Python 3.6 
+
 #### 3.5.2 Framework
+
+- <a href="https://www.fullstackpython.com/flask.html">Flask</a>
+
 #### 3.5.3 Librerías de funciones o dependencias
+
+- <a href="https://github.com/tec-csf/TC3059-PF-Otono-2019-cesar/blob/master/api/requirements.txt">Requirements.txt</a>
+
 
 *[Incluya aquí una explicación de cada uno de los endpoints que forman parte de la API. Cada endpoint debe estar correctamente documentado.]*
 
