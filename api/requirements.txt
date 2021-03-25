@@ -146,7 +146,7 @@ PyPDF2==1.26.0
 python-dateutil==2.7.3
 python-dotenv==0.9.1
 pytz==2018.5
-PyYAML==5.1.2
+PyYAML==5.4
 redis==2.10.6
 requests==2.20.0
 requests-oauthlib==1.2.0
