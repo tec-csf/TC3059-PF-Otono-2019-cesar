@@ -142,7 +142,7 @@ pycparser==2.18
 PyJWT==1.7.1
 flask-pymongo==2.3.0
 pymongo[srv]
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-dateutil==2.7.3
 python-dotenv==0.9.1
 pytz==2018.5
