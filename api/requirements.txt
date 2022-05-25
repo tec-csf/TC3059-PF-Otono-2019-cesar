@@ -139,7 +139,7 @@ protobuf==3.9.0
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
 pycparser==2.18
-PyJWT==1.7.1
+PyJWT==2.4.0
 flask-pymongo==2.3.0
 pymongo[srv]
 PyPDF2==1.26.0
